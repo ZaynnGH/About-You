@@ -1,0 +1,94 @@
+/* Gaya umum */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: pink;
+}
+
+.container {
+    background-color: pink;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    width: 90%;
+    max-width: 600px;
+}
+
+h1 {
+    color: #333;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.carousel {
+    position: relative;
+    max-width: 100%;
+    margin: auto;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.carousel-images {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.foto, .romantic-slide {
+    min-width: 100%;
+    height: auto;
+}
+
+.romantic-slide {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #555;
+    padding: 20px;
+    text-align: center;
+    font-size: 1.2em;
+    line-height: 1.5;
+    background-color: pink;
+    border-radius: 10px;
+}
+
+button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(255, 255, 255, 0.9);
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 50%;
+    font-size: 20px;
+    color: #333;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+button:hover {
+    background-color: rgba(255, 255, 255, 1);
+    transform: translateY(-3px);
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
+
+audio {
+    margin-top: 20px;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    padding: 5px;
+}

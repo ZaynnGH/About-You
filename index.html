@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raisa</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>Foto Raisa</h1>
+        <div class="carousel">
+            <div class="carousel-images">
+                <img src="images/foto1.jpeg" alt="Foto 1" class="foto">
+                <img src="images/foto2.jpeg" alt="Foto 2" class="foto">
+                <img src="images/foto3.jpeg" alt="Foto 3" class="foto">
+                <img src="images/foto4.jpeg" alt="Foto 4" class="foto">
+                <img src="images/foto5.jpeg" alt="Foto 5" class="foto">
+                <img src="images/foto6.jpeg" alt="Foto 6" class="foto">
+                <img src="images/foto7.jpeg" alt="Foto 7" class="foto">
+                <img src="images/foto8.jpeg" alt="Foto 8" class="foto">
+                <img src="images/foto9.jpeg" alt="Foto 9" class="foto">
+                <img src="images/foto10.jpeg" alt="Foto 10" class="foto">
+                <img src="images/foto11.jpeg" alt="Foto 11" class="foto">
+                <!-- Slide terakhir untuk kata-kata romantis -->
+                <div class="romantic-slide">
+                    <p>"Love is when someone else's happiness is more important than your own."</p>
+                    <p>"Every second with you is a beautiful eternity."</p>
+                    <p>"You are the reason behind my smile."</p>
+                    <!-- Tambahkan lebih banyak kata-kata romantis sesuai keinginan -->
+                </div>
+            </div>
+            <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
+            <button class="next" onclick="moveSlide(1)">&#10095;</button>
+        </div>
+        <audio id="background-audio" loop>
+            <source src="audio/about_you.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
